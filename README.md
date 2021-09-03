@@ -149,12 +149,13 @@ First clone the Darknet git repository.
 
 Now, to compile Darknet with CUDA, CuDNN and OpenCV support, open the `Makefile` from the `darknet` folder and make the changes as following in the beginning of this file. Also make sure to select the right architecture based on your GPU's compute capibility. For Pascal architecture you may want to use [this version of Darknet by AlexeyAB](https://github.com/AlexeyAB/darknet) and compile with the `CUDNN_HALF=1` flag for 3x speed improvement.
 
-    GPU=1
+Chage [Makefile](https://github.com/AlexeyAB/darknet/blob/master/Makefile)
+    GPU=1 
     CUDNN=1
     OPENCV=1
     LIBSO=1 
 
-Check Nvidia Compute Capability your c and chage [lines](https://github.com/AlexeyAB/darknet/blob/master/Makefile#L20)
+Check Nvidia Compute Capability your card and change [lines](https://github.com/AlexeyAB/darknet/blob/master/Makefile#L20)
 
 Once done, just run make from the darknet folder.
 
