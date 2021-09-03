@@ -73,10 +73,11 @@ sudo apt update
 sudo apt install tensorrt libnvinfer7
 ```
 
-## Step 3: Add to .bashrc
+## Add to .bashrc for TensorRT cuDNN CUDA  - (important)
 
 ```
 sudo gedit ~/.bashrc # open bashrc and copy lines below
+```
 
 ```
 export CUDA_HOME=/usr/local/cuda
