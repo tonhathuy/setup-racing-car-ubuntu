@@ -153,7 +153,9 @@ Now, to compile Darknet with CUDA, CuDNN and OpenCV support, open the `Makefile`
     CUDNN=1
     OPENCV=1
     LIBSO=1 
-    
+
+Check Nvidia Compute Capability your c and chage [lines](https://github.com/AlexeyAB/darknet/blob/master/Makefile#L20)
+
 Once done, just run make from the darknet folder.
 
     cd darknet
