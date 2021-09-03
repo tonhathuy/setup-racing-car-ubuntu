@@ -13,4 +13,9 @@ sudo apt -y install python-rosinstall python-rosinstall-generator python-wstool 
 
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
+
+source /opt/ros/melodic/setup.bash
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+
 catkin_make
