@@ -27,7 +27,7 @@ Next, we will install some basic packages which we might need during the install
 
 ## 2. Setup NVIDIA Driver for your GPU
 
-    follow [this video](https://www.youtube.com/watch?v=GljujCLixzE) and src
+follow [this video](https://www.youtube.com/watch?v=GljujCLixzE) and [src](./src/Install_Nvidia_Driver.md)
 
 ## 3. Install CUDA
 
