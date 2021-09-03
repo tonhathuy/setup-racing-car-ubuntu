@@ -4,7 +4,7 @@ this setup support Ubuntu 18.04
 
 ## Contents
 1. [Install Prerequisites](https://github.com/tonhathuy/setup-racing-car-ubuntu/blob/main/README.md#1-install-prerequisites)
-2. [Setup NVIDIA Driver for your GPU](https://github.com/tonhathuy/setup-racing-car-ubuntu/blob/main/README.md#2-install-nvidia-driver-for-your-gpu)
+2. [Setup NVIDIA Driver for your GPU](https://github.com/tonhathuy/setup-racing-car-ubuntu/blob/main/README.md#2-setup-nvidia-driver-for-your-gpu)
 3. [Install CUDA](https://github.com/tonhathuy/setup-racing-car-ubuntu/blob/main/README.md#3-install-cuda)
 4. [Install cuDNN](https://github.com/tonhathuy/setup-racing-car-ubuntu/blob/main/README.md#4-install-cudnn)
 5. [Install TensorRT](https://github.com/tonhathuy/setup-racing-car-ubuntu/blob/main/README.md#5-install-tensorrt)
