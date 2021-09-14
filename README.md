@@ -156,7 +156,7 @@ Chage [Makefile](https://github.com/AlexeyAB/darknet/blob/master/Makefile)
     OPENCV=1
     LIBSO=1 
 
-Check Nvidia Compute Capability your card and change [lines](https://github.com/AlexeyAB/darknet/blob/master/Makefile#L20)
+Check [Nvidia Compute Capability](https://en.wikipedia.org/wiki/CUDA) your card and change [lines](https://github.com/AlexeyAB/darknet/blob/master/Makefile#L20)
 
 Once done, just run make from the darknet folder.
 
